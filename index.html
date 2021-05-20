@@ -1,202 +1,295 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Online Job Application Form</title>
-	<link rel="stylesheet" href="styles.css">
+	<title>jspiders joining form</title>
+	<link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-	<h1>Online Job Application Form</h1>
+	<table>
+		<tr>
+			<td padding:0px;><h1>Jspiders Joining Form</h1></td>
+		</tr>
+	</table>
 	<form>
 		<fieldset>
-			<legend>Personal Information</legend>
+			<legend>General Details</legend>
 			<table>
 				<tr>
-					<td><label>First name</label></td>
-					<td><input type="text" name=""></td>
-					<td><label>Middle name</label></td>
-					<td><input type="text" name=""></td>
-					<td><label>Last name</label></td>
-					<td><input type="text" name=""></td>
-				</tr>
-				<tr><td><label>Father name</label></td>
-					<td><input type="text" name=""></td>
-					<td><label>Mother name</label></td>
+					<td><label>Full Name</label></td>
 					<td><input type="text" name=""></td>
 				</tr>
 				<tr>
-					<td><label>Current Address</label></td>
-					<td><textarea rows="3 cols="21></textarea></td>
-					<td><label>Permanent Address</label></td>
-					<td><textarea rows="3 cols="21></textarea></td>
-				</tr>
-				<tr>
-					<td>Phone Numbers</td>
-				</tr>
-				<tr>
-					<td><label>Landline Number</label></td>
-					<td><input type="Number" name=""></td>
-					<td><label>Mobile Number</label></td>
-					<td><input type="Number" name=""></td>
+					<td><label>Gender</label></td>
+					<td><input type="radio" name="r1">Male</td>
+					<td><input type="radio" name="r1">female</td>
 				</tr>
 				<tr>
 					<td><label>Date Of Birth</label></td>
 					<td><input type="Date" name=""></td>
-					<td><label>Place Of Birth</label></td>
+				</tr>
+				<tr>
+					<td><label>Mobile Number</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Mobile Number(Repeat)</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Email ID(UpperCase)</label></td>
 					<td><input type="text" name=""></td>
 				</tr>
 				<tr>
-					<td colspan="2"><label>Select Gender</label></td>
-					<td><input type="radio" name="r1">Male</td>
-					<td><input type="radio" name="r1">Female</td>
-				</tr>
-				<tr>
-					<td><label>Highest Qualification</label></td>
+					<td><label>Email ID(Repeat)</label></td>
 					<td><input type="text" name=""></td>
-					<td><label>Year Of Passing</label></td>
-					<td><input type="Month" name=""></td>
 				</tr>
-				<tr>
-					<td colspan="2"><label>Languages Known</label></td>
-					<td><input type="checkbox" name="r1">Telugu</td>
-					<td><input type="checkbox" name="r1">English</td>
-					<td><input type="checkbox" name="r1">Hindi</td>
-				</tr>
-				<tr>
-					<td colspan="2"><label>Select Your Hobbies</label></td>
-					<td><input type="checkbox" name="r1">Sleeping</td>
-					<td><input type="checkbox" name="r1">Eating</td>
-					<td><input type="checkbox" name="r1">coding</td>
-				</tr>
-				<tr>
-					<td><label>About Your Self</label></td>
-					<td><textarea rows="3 cols="21></textarea></td>
-				</tr>
-				<tr>
-					<td><label>Nationality</label></td>
-					<td>
-						<select>
-							<option>...select....</option>
-							<option>Indian</option>
-							<option>American</option>
-							<option>African</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td><label>Aadharcard Number</label></td>
-					<td><input type="number" name=""></td>
-					<td><label>Pancard Number</label></td>
-					<td><input type="number" name=""></td>
-				</tr>
+				
 			</table>
 		</fieldset>
 		<fieldset>
 			<legend>Educational Details</legend>
 			<table>
 				<tr>
-					<td><label>S.no</label></td>
-					<td><label>Qualification</label></td>
-					<td><label>Institute/University</label></td>
-					<td><label>Year Of Passing</label></td>
-					<td><label>Marks(%)</label></td>
+					<td><label>10th.. Class</label></td>
+					<td><input type="radio" name="r2">SSLC(state board)</td>
+					<td><input type="radio" name="r2">CBSE</td>
+					<td><input type="radio" name="r2">ICSE</td>
+					<td><input type="radio" name="r2">IGSE</td>
 				</tr>
 				<tr>
-					<td>1.</td>
-					<td><input type="text" name=""></td>
-					<td><input type="text" name=""></td>
-					<td><input type="Month" name=""></td>
-					<td><input type="number" name=""></td>
+					<td><label>Year Of PassedOut</label></td>
+					<td><input type="month" name=""></td>
+					<td><label>Aggrigate %</label></td>
+					<td><input type="Number" name=""></td>
 				</tr>
 				<tr>
-					<td>2.</td>
-					<td><input type="text" name=""></td>
-					<td><input type="text" name=""></td>
-					<td><input type="Month" name=""></td>
-					<td><input type="number" name=""></td>
+					<td><label>PUC/12th</label></td>
+					<td><label>Aggrigate %</label></td>
+					<td><input type="Number" name=""></td>
+					<td><label>Year Of PassdOut</label></td>
+					<td><input type="month" name=""></td>
 				</tr>
 				<tr>
-					<td>3.</td>
+					<td><input type="radio" name="r3">Diploma</td>
+					<td><input type="radio" name="r3">Regular</td>
+					<td><label>Aggrigate % (All Sem)</label></td>
+					<td><input type="Number" name=""></td>
+					<td><label></label>College Name</td>
 					<td><input type="text" name=""></td>
-					<td><input type="text" name=""></td>
-					<td><input type="Month" name=""></td>
-					<td><input type="number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Diploma(Stream)</label></td>
+					<td><input type="radio" name="r4">CSE</td>
+					<td><input type="radio" name="r4">IS</td>
+					<td><input type="radio" name="r4">IT</td>
+					<td><input type="radio" name="r4">EEE</td>
+					<td><input type="radio" name="r4">ECE</td>
+					<td><input type="radio" name="r4">MECH</td>
+					<td><input type="radio" name="r4">CIVIL</td>
+					<td><input type="radio" name="r4">OTHERS</td>
+				</tr>
+				<tr>
+					<td><label>If ITI,IIT</label></td>
+					<td><label>Year Of PassdOut</label></td>
+					<td><input type="week" name=""></td>
+					<td><label>Aggrigate %</label></td>
+					<td><input type="Number" name=""></td>
 				</tr>
 			</table>
 		</fieldset>
 		<fieldset>
-			<legend>WorkExperience</legend>
+			<legend>Degree Details</legend>
 			<table>
 				<tr>
-					<td><label>S.no</label></td>
-					<td><label>Company</label></td>
-					<td><label>Work/Role</label></td>
-					<td><label>From Date</label></td>
-					<td><label>To Date</label></td>
+					<td><label>Degree</label></td>
+					<td><input type="radio" name="r5">BE</td>
+					<td><input type="radio" name="r5">B-Tech</td>
+					<td><input type="radio" name="r5">BSC</td>
+					<td><input type="radio" name="r5">BCA</td>
+					<td><input type="radio" name="r5">Bcom</td>
+					<td><input type="radio" name="r5">MBA</td>
 				</tr>
 				<tr>
-					<td>1.</td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><input type="Week" name=""></td>
-					<td><input type="Week" name=""></td>
-					
+					<td><label>Stream</label></td>
+					<td><input type="radio" name="r6">CSE</td>
+					<td><input type="radio" name="r6">MECH</td>
+					<td><input type="radio" name="r6">CiVIL</td>
+					<td><input type="radio" name="r6">EEE</td>
+					<td><input type="radio" name="r6">ECE</td>
+					<td><input type="radio" name="r6">IS</td>
+					<td><input type="radio" name="r6">IT</td>
+					<td><input type="radio" name="r6">AE</td>
 				</tr>
 				<tr>
-					<td>2.</td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><input type="Week" name=""></td>
-					<td><input type="Week" name=""></td>
-					
+					<td> </td>
+					<td><input type="radio" name="r7">BIO-MED</td>
+					<td><input type="radio" name="r7">CHEMICAL</td>
+					<td><input type="radio" name="r7">BIO-TECH</td>
+					<td><input type="radio" name="r7">TELECOM</td>
+					<td><input type="radio" name="r7">OTHERS</td>
 				</tr>
 				<tr>
-					<td>3.</td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><textarea cols="21" rows="3"></textarea></td>
-					<td><input type="Week" name=""></td>
-					<td><input type="Week" name=""></td>
-					
+					<td><label>Year Of PassedOut</label></td>
+					<td><input type="month" name=""></td>
+					<td><label>Aggregate(1-8 sem)</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>University</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>University Roll(Usn)No</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>College Name</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>Place</label></td>
+					<td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Do You Fail And Than Clear The Subject In Degree</label></td>
+					<td><input type="radio" name="r8">Yes</td>
+					<td><input type="radio" name="r8">No</td>
+				</tr>
+				<tr>
+					<td><label>Have Any Existing Backlogs</label></td>
+					<td><input type="radio" name="r9">Yes</td>
+					<td><input type="radio" name="r9">No</td>
+				</tr>
+				<tr>
+					<td><label>Got Year Gap In Degree</label></td>
+					<td><input type="radio" name="r0">Yes</td>
+					<td><input type="radio" name="r0">No</td>
 				</tr>
 			</table>
 		</fieldset>
 		<fieldset>
-			<legend>Other Details</legend>
+			<legend>Master Details</legend>
 			<table>
 				<tr>
-					<td><label>Job Type</label></td>
-					<td><input type="radio" name="">Permanent</td>
-					<td><input type="radio" name="">Contract</td>
-					<td><input type="radio" name="">Others</td>
+					<td><label>Degree:</label></td>
+					<td><input type="radio" name="s1">M-Tech</td>
+					<td><input type="radio" name="s1">MCA</td>
+					<td><input type="radio" name="s1">MBA</td>
+					<td><input type="radio" name="s1">MS</td>
+					<td><input type="radio" name="s1">MSC</td>
 				</tr>
 				<tr>
-					<td><label>Date Of Joining</label></td>
-					<td><input type="Date" name=""></td>
-					<td><label>Time Of Joining</label></td>
-					<td><input type="Time" name=""></td>
-
+					<td><label>Stream:</label></td>
+					<td><input type="radio" name="s2">CSE</td>
+					<td><input type="radio" name="s2">MECH</td>
+					<td><input type="radio" name="s2">CIVIL</td>
+					<td><input type="radio" name="s2">EEE</td>
+					<td><input type="radio" name="s2">ECE</td>
+					<td><input type="radio" name="s2">IS</td>
+					<td><input type="radio" name="s2">IT</td>
+					<td><input type="radio" name="s2">OTHERS</td>
 				</tr>
 				<tr>
-					<td><lable>Prefered Job Location</lable></td>
-					<td><input type="radio" name="">Bangalore</td>
-					<td><input type="radio" name="">Hyderabad</td>
-					<td><input type="radio" name="">Other</td>
-
+					<td><label>Year Of PassedOut</label></td>
+					<td><input type="month" name=""></td>
+					<td><label>Aggregate %</label></td>
+					<td><input type="Number" name=""></td>
 				</tr>
 				<tr>
-					<td><label cols="2">Willing To Relocate To Hyderabad?</label></td>
-					<td><input type="radio" name="">Yes</td>
-					<td><input type="radio" name="">No</td>
+					<td><label>University</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>University Roll(Usn)No</label></td>
+					<td><input type="Number" name=""></td>
 				</tr>
 				<tr>
-					<td><input type="radio" name="">I am here by declaring that all above information is true as per my knowledge</input></td>
+					<td><label>College Name</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>Place</label></td>
+					<td><input type="text" name=""></td>
 				</tr>
 				<tr>
+					<td><label>Do You Fail And Than Clear The Subject In Degree</label></td>
+					<td><input type="radio" name="s3">Yes</td>
+					<td><input type="radio" name="s3">No</td>
+				</tr>
+				<tr>
+					<td><label>Have Any Existing Backlogs</label></td>
+					<td><input type="radio" name="s4">Yes</td>
+					<td><input type="radio" name="s4">No</td>
+				</tr>
+				<tr>
+					<td><label>Got Year Gap In Degree</label></td>
+					<td><input type="radio" name="s5">Yes</td>
+					<td><input type="radio" name="s5">No</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<table>
+				<tr>
+					<td><label>Do You Have Aadhar Card</label></td>
+					<td><input type="radio" name="s5">Yes</td>
+					<td><input type="radio" name="s5">No</td>
+				</tr>
+				<tr>
+					<td><label>Do You Have Passport</label></td>
+					<td><input type="radio" name="s5">Yes</td>
+					<td><input type="radio" name="s5">No</td>
+				</tr>
+				<tr>
+					<td><label>Do You Have Pan Card </label></td>
+					<td><input type="radio" name="s5">Yes</td>
+					<td><input type="radio" name="s5">No</td>
+				</tr>
+				<tr>
+					<td><label>Ready To Relocate</label></td>
+					<td><input type="radio" name="s5">Yes</td>
+					<td><input type="radio" name="s5">No</td>
+				</tr>
+				<tr>
+					<td><label>Is Preferred Location:</label></td>
+					<td><input type="checkbox" name="">Bangalore</td>
+					<td><input type="checkbox" name="">Pune</td>
+					<td><input type="checkbox" name="">Mumbai</td>
+					<td><input type="checkbox" name="">Delhi</td>
+					<td><input type="checkbox" name="">Chennai</td>
+					<td><input type="checkbox" name="">Others</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<table>
+				<tr>
+					<td><label>Father's/Husband's Name</label></td>
+					<td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td><label>House No</label></td>
+					<td><input type="Number" name=""></td>
+					<td><label>Street No</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Area Name</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>Pincode</label></td>
+					<td><input type="Number" name=""></td>
+				</tr>
+				<tr>
+					<td><label>City</label></td>
+					<td><input type="text" name=""></td>
+					<td><label>State</label></td>
+					<td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					
+				</tr>
+				<tr>
+					<td> </td>
 					<td id="submit"><label>SUBMIT</label></td>
 					<td id="reset"><label>RESET</label></td>
+					<td> </td>
 				</tr>
 			</table>
 		</fieldset>
 	</form>
-
 </body>
 </html>
